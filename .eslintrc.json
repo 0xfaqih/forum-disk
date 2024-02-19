@@ -1,0 +1,30 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "cypress/globals": true
+    },
+    "extends": [
+        "airbnb",
+        "plugin:storybook/recommended",
+        "plugin:storybook/recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+        "react/no-danger": "off",
+        "no-alert": "off",
+        "no-underscore-dangle": "off",
+        "no-use-before-define": "off",
+        "jsx-a11y/anchor-is-valid": "off",
+        "jsx-a11y/label-has-associated-control": "off",
+        "jsx-a11y/click-events-have-key-events": "off",
+        "jsx-a11y/no-static-element-interactions": "off"
+    },
+    "plugins": [
+        "react",
+        "cypress"
+    ]
+}
